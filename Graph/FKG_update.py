@@ -1,9 +1,10 @@
 #!~/py3-env/bin/python3
 #coding=utf-8
 
-from py2neo import Graph, Node, Relationship
-import pandas as pd
 import time
+
+import pandas as pd
+from py2neo import Graph, Node, Relationship
 from tqdm import tqdm
 
 graph = Graph('http://10.35.85.32:7874', username='neo4j', password='123456', secure=False, bolt=False)  # 连接图数据库

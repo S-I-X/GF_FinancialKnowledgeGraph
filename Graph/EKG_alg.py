@@ -1,12 +1,13 @@
 #!~/py3-env/bin/python3
 # coding=utf-8
 
-from py2neo import Graph, Node, Relationship, walk, Subgraph
-import pandas as pd
-import time
-import numpy as np
-from tqdm import tqdm
 import csv
+import time
+
+import numpy as np
+import pandas as pd
+from py2neo import Graph, walk
+from tqdm import tqdm
 
 
 class Basic(object):

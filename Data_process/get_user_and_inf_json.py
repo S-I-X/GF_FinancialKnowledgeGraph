@@ -1,7 +1,6 @@
 #!~/py3-env/bin/python3
 # coding=utf-8
 import csv
-import pandas as pd
 import json
 
 FILE_PATH = '../data/'
